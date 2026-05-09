@@ -1,12 +1,18 @@
 import React from "react";
 import { MessageSquare } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaGithub,
+  FaGoogle,
+  FaInstagram,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
+    <footer className="border-t transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-10">
           {/* SISI KIRI: LOGO & AJAKAN FOOTER */}
@@ -27,23 +33,38 @@ const Footer = () => {
             </span>
             <div className="flex items-center gap-6">
               {/* Tautan Sosial */}
+
               <a
-                href="#"
-                className="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition"
+                href="https://wa.me/6281327748100"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-500 dark:text-slate-400 hover:text-[#25D366] transition-colors duration-300"
+              >
+                <FaWhatsapp size={24} />
+              </a>
+              <a
+                href="https://linkedin.com/in/hamid-sayidi-abdullah-72a821290/"
+                className="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-blue-600 transition"
               >
                 <FaLinkedin size={24} />
               </a>
               <a
-                href="#"
+                href="https://github.com/uHamid-Sayidi/"
                 className="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition"
               >
                 <FaGithub size={24} />
               </a>
               <a
-                href="mailto:hamidsayidi123@email.com"
-                className="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition"
+                href="https://www.instagram.com/hamid.sayidi/"
+                className="text-slate-500 dark:text-slate-400 hover:text-[#E1306C] dark:hover:text-[#E1306C]  transition-colors duration-300"
               >
-                <MessageSquare size={24} />
+                <FaInstagram size={24} />
+              </a>
+              <a
+                href="mailto:hamidsayidi123@email.com"
+                className="text-slate-500 dark:text-slate-400 hover:text-[#4285F4] dark:hover:text-white transition-colors duration-300"
+              >
+                <FaGoogle size={24} />
               </a>
             </div>
           </div>

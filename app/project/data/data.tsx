@@ -42,6 +42,7 @@ export const projects = [
     ],
     penggunaan:
       "Signup/Login untuk memulai belanja, Jelajahi katalog figure, tambahkan ke keranjang, dan lakukan checkout dengan mudah.",
+    link: "/project/toko-figure",
     linkshowcase: "/project/toko-figure",
     linkGithub: "https://github.com/Hamid-Sayidi/toko-figure-hsr.git",
   },
@@ -62,6 +63,7 @@ export const projects = [
     kekurangan: ["Belum ada sistem Login", "Masih ada beberapa bug"],
     penggunaan:
       "Masukkan transaksi harian agar sistem dapat memonitoringnya. Ada fitur tabungan yang bisa digunakan untuk memonitoring keuangan pribadi dan Mencapai impian atau untuk simpanan saja. ",
+    link: "/project/monitoring-cash",
     linkshowcase: "#",
     linkGithub: "#",
   },
@@ -82,7 +84,29 @@ export const projects = [
     kekurangan: ["UI yang masih sederhana dan tidak rapi"],
     penggunaan:
       "Lihat hasil riset dan iterasi desain melalui web tersebut lalu masuk ke link prototype untuk mencobakan desain, lalu dapatkan feedback. ",
+    link: "/project/techimpact-uiux",
     linkshowcase: "https://bit.ly/mobileappruangbelajar",
+    linkGithub: "-",
+  },
+  {
+    id: "pasarpolis-uiux",
+    title: "UI/UX Case Study: Pasarpolis",
+    image: "/Pasarpolis.png",
+    role: "UI/UX Designer",
+    tech: ["Figma", "User Research", "Prototyping"],
+    description:
+      "Perancangan redesign antarmuka web pasarpolis guna memberikan pandangan lain pada pengguna.",
+    kelebihan: [
+      "User flow simpel",
+      "Desain inklusif",
+      "Aksesibilitas tinggi",
+      "Prototyping interaktif",
+    ],
+    kekurangan: ["UI yang masih sederhana dan tidak rapi"],
+    penggunaan:
+      "Lihat hasil riset dan iterasi desain melalui web tersebut lalu masuk ke link prototype untuk mencobakan desain, lalu dapatkan feedback. ",
+    link: "/project/pasarpolis-uiux",
+    linkshowcase: "bit.ly/websitepasarpolis",
     linkGithub: "-",
   },
   {
@@ -101,6 +125,7 @@ export const projects = [
     kekurangan: ["Respon hanya terpaku pada mentor dan teman"],
     penggunaan:
       "Lihat hasil riset dan iterasi desain melalui web tersebut lalu masuk ke link prototype untuk mencobakan desain, lalu dapatkan feedback. ",
+    link: "/project/ui-desainer",
     linkshowcase: "https://www.figma.com/files/project/82639852",
     linkGithub: "-",
   },
@@ -121,6 +146,7 @@ export const projects = [
     ],
     penggunaan:
       "Masuk ke aplikasi pilih atom/molekul lalu arahkan kamera ke barcode.",
+    link: "/project/ar-learning-app",
     linkshowcase: "-",
     linkGithub: "-",
   },
@@ -137,6 +163,7 @@ export const projects = [
     kekurangan: ["Desain minimalis", "", "Masih Banyak bug"],
     penggunaan:
       "Masuk ke aplikasi pilih atom/molekul lalu arahkan kamera ke barcode.",
+    link: "/project/waste-wise-app",
     linkshowcase: "-",
     linkGithub:
       "https://drive.google.com/drive/folders/1tgEB7dFJKBUETj6S4eggZjK78ocAx2uB?usp=drive_link",

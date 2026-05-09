@@ -4,10 +4,7 @@ import { sertifikat } from "@/app/project/data/data";
 
 const Sertificate = () => {
   return (
-    <section
-      id="sertifikat"
-      className="py-24 bg-slate-50/50 dark:bg-slate-900/30 transition-colors duration-300"
-    >
+    <section id="sertifikat" className="py-24 transition-colors duration-300">
       <div className="max-w-6xl mx-auto px-4">
         <div className="mb-16">
           <h2 className="text-blue-600 font-bold tracking-wider uppercase text-sm mb-3">

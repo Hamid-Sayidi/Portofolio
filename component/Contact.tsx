@@ -61,7 +61,7 @@ const Contact = () => {
                   href="https://linkedin.com/in/hamid-sayidi-abdullah-72a821290/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 bg-slate-100 dark:bg-slate-800 rounded-lg text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition shadow-sm"
+                  className="p-3 bg-slate-100 dark:bg-slate-800 rounded-lg text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-600 transition shadow-sm"
                 >
                   <FaLinkedin size={20} />
                 </a>
@@ -69,7 +69,7 @@ const Contact = () => {
                   href="https://github.com/uHamid-Sayidi/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 bg-slate-100 dark:bg-slate-800 rounded-lg text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition shadow-sm"
+                  className="p-3 bg-slate-100 dark:bg-slate-800 rounded-lg text-slate-600 dark:text-slate-400 hover:text-black dark:hover:text-white transition shadow-sm"
                 >
                   <FaGithub size={20} />
                 </a>
@@ -124,6 +124,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
+                disabled
                 className="inline-flex gap-2 items-center justify-center px-8 py-3.5 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition shadow-lg shadow-blue-500/20"
               >
                 Kirim Pesan <MessageSquare size={18} />
