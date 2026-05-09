@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import link from "next/link";
 import { projects } from "@/app/project/data/data";
 
 const categories = ["Semua", "Web Dev", "UI/UX", "Mobile/AR"];
@@ -64,7 +63,7 @@ const Projects = () => {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div className="absolute inset-0 bg-linear-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                   <span className="text-white text-sm font-medium">
                     Lihat Detail →
                   </span>
@@ -72,7 +71,7 @@ const Projects = () => {
               </div>
 
               {/* Content */}
-              <div className="p-8 flex flex-col flex-grow">
+              <div className="p-8 flex flex-col grow">
                 <div className="flex justify-between items-start mb-4">
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((t) => (
