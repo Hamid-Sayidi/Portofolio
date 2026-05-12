@@ -43,6 +43,8 @@ const Hero = () => {
                 Lihat Project
               </a>
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1wJmlqTHjB1-z-NlHlvHcaA3iABdcgHhq/view?usp=drive_link"
                 className="px-8 py-3.5 bg-green-600 text-white rounded-full font-semibold hover:bg-green-700 hover:scale-105 transition-all shadow-lg"
               >
@@ -52,7 +54,7 @@ const Hero = () => {
 
             <a
               href="#kontak"
-              className="w-fit px-8 py-3.5 border border-slate-200 dark:border-slate-800 dark:text-white rounded-full font-semibold hover:bg-slate-100 dark:hover:bg-slate-900 transition-all"
+              className="w-fit px-8 py-3.5 border border-slate-300 dark:border-slate-800 dark:text-white rounded-full font-semibold hover:bg-slate-100 dark:hover:bg-slate-900 transition-all"
             >
               Hubungi Saya
             </a>
@@ -63,7 +65,7 @@ const Hero = () => {
         <div className="relative flex items-center justify-center p-4 md:p-8">
           <div className="absolute inset-0 bg-blue-100 dark:bg-blue-950/50 rounded-full blur-3xl opacity-60 aspect-square scale-90" />
 
-          <div className="relative z-10 w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 bg-white dark:bg-slate-900 hover:-translate-y-2 transition-transform duration-300">
+          <div className="relative z-10 w-full max-w-md aspect-4/5 rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 bg-white dark:bg-slate-900 hover:-translate-y-2 transition-transform duration-300">
             <Image
               src="/Profile.jpg"
               alt="Hamid Sayidi Abdullah"

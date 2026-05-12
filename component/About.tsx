@@ -95,7 +95,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-3 p-4 bg-slate-50 dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800">
+              <div className="flex items-start gap-3 p-4 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800">
                 <Smartphone className="text-blue-600 shrink-0" size={20} />
                 <div>
                   <h5 className="font-bold text-slate-900 dark:text-white text-xs uppercase">

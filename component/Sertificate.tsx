@@ -15,11 +15,11 @@ const Sertificate = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {sertifikat.map((cert, index) => (
             <div
               key={index}
-              className="p-8 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 flex flex-col gap-4 hover:border-blue-500 transition-all group"
+              className="p-8 bg-slate-100 dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 flex flex-col gap-4 hover:border-blue-500 transition-all group"
             >
               <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-xl flex items-center justify-center text-blue-600 dark:text-blue-400 group-hover:scale-110 transition-transform">
                 <ShieldCheck size={28} />
@@ -40,6 +40,8 @@ const Sertificate = () => {
 
               <div className="mt-auto pt-4 border-t border-slate-50 dark:border-slate-800">
                 <a
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href={cert.link}
                   className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors"
                 >

@@ -42,24 +42,15 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:ring-2 ring-blue-400 transition-all text-slate-900 dark:text-white"
+            className="p-2 rounded-lg bg-slate-100 border-slate-400 dark:bg-slate-800 hover:ring-2 ring-blue-400 transition-all"
             aria-label="Toggle Theme"
           >
-            <div className="text-slate-900 dark:text-yellow-400">
-              {mounted ? (
-                theme === "dark" ? (
-                  <Sun size={20} fill="currentColor" />
-                ) : (
-                  <Moon
-                    size={20}
-                    fill="currentColor"
-                    className="text-gray-800"
-                  />
-                )
-              ) : (
-                <div className="w-5 h-5" />
-              )}
-            </div>
+            {mounted && (
+              <div className="text-slate-900 dark:text-yellow-400">
+                {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
+              </div>
+            )}
+            {!mounted && <div className="w-5 h-5" />}
           </button>
         </div>
       </div>

@@ -43,13 +43,14 @@ export const projects = [
     penggunaan:
       "Signup/Login untuk memulai belanja, Jelajahi katalog figure, tambahkan ke keranjang, dan lakukan checkout dengan mudah.",
     link: "/project/toko-figure",
-    linkshowcase: "/project/toko-figure",
+    linkshowcase: "https://latihan-next-app.vercel.app/",
     linkGithub: "https://github.com/Hamid-Sayidi/toko-figure-hsr.git",
   },
   {
     id: "monitoring-cash",
     title: "Monitoring Cash Web",
     image: "/MonitorUang.png",
+    category: "Web Dev",
     role: "Full-stack Developer",
     tech: ["React", "Next.js", "Redux", "Prisma"],
     description:
@@ -64,13 +65,14 @@ export const projects = [
     penggunaan:
       "Masukkan transaksi harian agar sistem dapat memonitoringnya. Ada fitur tabungan yang bisa digunakan untuk memonitoring keuangan pribadi dan Mencapai impian atau untuk simpanan saja. ",
     link: "/project/monitoring-cash",
-    linkshowcase: "#",
-    linkGithub: "#",
+    linkshowcase: "https://my-analytic-dashboard-mu.vercel.app/",
+    linkGithub: "https://github.com/Hamid-Sayidi/monitoring-cash.git",
   },
   {
     id: "techimpact-uiux",
     title: "UI/UX Case Study: TechImpact",
     image: "/Skilvull.jpg",
+    category: "UI/UX",
     role: "UI/UX Designer",
     tech: ["Figma", "User Research", "Prototyping"],
     description:
@@ -92,6 +94,7 @@ export const projects = [
     id: "pasarpolis-uiux",
     title: "UI/UX Case Study: Pasarpolis",
     image: "/Pasarpolis.png",
+    category: "UI/UX",
     role: "UI/UX Designer",
     tech: ["Figma", "User Research", "Prototyping"],
     description:
@@ -113,7 +116,8 @@ export const projects = [
     id: "ui-desainer",
     title: "UI Desainer di TupaiTech",
     image: "/UIDesain.png",
-    role: "UI/UX Designer",
+    category: "UI/UX",
+    role: "UI Desainer",
     tech: ["Figma", "User Research", "Prototyping"],
     description:
       "Perancangan antarmuka pengguna yang fokus pada kenyamanan pengguna.",
@@ -148,7 +152,8 @@ export const projects = [
       "Masuk ke aplikasi pilih atom/molekul lalu arahkan kamera ke barcode.",
     link: "/project/ar-learning-app",
     linkshowcase: "-",
-    linkGithub: "-",
+    linkGithub:
+      "https://drive.google.com/file/d/1C-ojZFZ9KTY98EK54FmyWjYkZjACMYS0/view?usp=sharing",
   },
   {
     id: "waste-wise-app",
@@ -160,7 +165,7 @@ export const projects = [
       "Aplikasi pembelajaran interaktif Android yang digunakan untuk memahami pengelolaan sampah.",
     tech: ["Android Studio", "Kotlin"],
     kelebihan: ["Tujuan tercapai"],
-    kekurangan: ["Desain minimalis", "", "Masih Banyak bug"],
+    kekurangan: ["Desain minimalis", "UI masih belum rapi", "Masih Banyak bug"],
     penggunaan:
       "Masuk ke aplikasi pilih atom/molekul lalu arahkan kamera ke barcode.",
     link: "/project/waste-wise-app",

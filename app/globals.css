@@ -26,5 +26,6 @@ body {
 @layer base {
   body {
     @apply bg-[var(--background)] text-[var(--foreground)];
+    border-color: theme("colors.slate.400");
   }
 }

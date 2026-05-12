@@ -78,7 +78,7 @@ const Contact = () => {
           </div>
 
           {/* BAGIAN KANAN: FORMULIR KONTAK */}
-          <div className="p-10 bg-slate-50 dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-xl shadow-blue-500/5">
+          <div className="p-10 bg-slate-100 dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-xl shadow-blue-500/5">
             <form className="flex flex-col gap-6">
               <div className="flex flex-col gap-2">
                 <label

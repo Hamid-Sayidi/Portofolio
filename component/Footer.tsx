@@ -1,5 +1,3 @@
-import React from "react";
-import { MessageSquare } from "lucide-react";
 import {
   FaGithub,
   FaGoogle,

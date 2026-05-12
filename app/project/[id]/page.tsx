@@ -75,19 +75,27 @@ export default async function ProjectDetail({
             {/* Tombol Action (GitHub & Showcase) */}
             <div className="grid grid-cols-1 gap-3 pt-6 border-t border-slate-200 dark:border-slate-800">
               <a
-                href={project.linkGithub}
-                target="_blank"
+                href={project.linkGithub !== "-" ? project.linkGithub : "#"}
+                target={project.linkGithub !== "-" ? "_blank" : "_self"}
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 px-4 py-3 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-xl font-bold hover:opacity-90 transition shadow-md"
+                className={`flex items-center justify-center gap-2 px-4 py-3 rounded-xl font-bold transition-all ${
+                  project.linkGithub === "-"
+                    ? "bg-gray-400 cursor-not-allowed opacity-50"
+                    : "bg-slate-900 dark:bg-white text-white dark:text-black hover:opacity-80" // Tampilan normal
+                }`}
               >
                 <FaGithub size={18} />
                 Repository
               </a>
               <a
-                href={project.linkshowcase}
-                target="_blank"
+                href={project.linkshowcase !== "-" ? project.linkshowcase : "#"}
+                target={project.linkshowcase !== "-" ? "_blank" : "_self"}
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 px-4 py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition shadow-md shadow-blue-500/20"
+                className={`flex items-center justify-center gap-2 px-4 py-3 rounded-xl font-bold transition-all ${
+                  project.linkshowcase === "-"
+                    ? "bg-gray-400 cursor-not-allowed opacity-50"
+                    : "bg-blue-600 text-white hover:bg-blue-700"
+                }`}
               >
                 <ExternalLink size={18} />
                 Live Showcase
